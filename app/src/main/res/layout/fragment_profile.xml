@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.ui.profile.ProfileFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/ic_home_nav"
+        app:civ_border_color="#000000"
+        app:civ_border_width="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manager" />
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="9"
+                android:layout_gravity="bottom"
+                android:id="@+id/txtManagerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imgEditManagerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+        </TableRow>
+
+        <TableRow
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="9"
+                android:layout_gravity="bottom"
+                android:id="@+id/txtEmailUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imgEditEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+        </TableRow>
+
+        <TableRow
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtPasswordUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="9"
+                android:text="Password : ********"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imgEditPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnLogout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Log out" />
+
+
+</LinearLayout>

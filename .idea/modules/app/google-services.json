@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "146568664128",
+    "firebase_url": "https://home-ced1a.firebaseio.com",
+    "project_id": "home-ced1a",
+    "storage_bucket": "home-ced1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146568664128:android:a148f982e65df75d45fba5",
+        "android_client_info": {
+          "package_name": "com.minhit.homemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146568664128-tfjfon4u0gub3jggfi002mjqdqqm9rdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.minhit.homemanager",
+            "certificate_hash": "7d41c1f62f1e28fc03de837fce3aa0f675baf007"
+          }
+        },
+        {
+          "client_id": "146568664128-cetafni9e41sgp0094mpptmj4cnr1acd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1m4VLcCBIj7cedZKI1tV1So3slvbEFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146568664128-cetafni9e41sgp0094mpptmj4cnr1acd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
